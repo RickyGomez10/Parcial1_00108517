@@ -117,7 +117,7 @@ body header p{
 .Seccion2 form{
     display: grid;
     grid-template-columns: repeat(2,50%);
-    grid-column-gap: 2%;
+    grid-column-gap:2%;
     padding:5%;
 }
 .Seccion2-inputs{
@@ -133,12 +133,19 @@ body header p{
 .Seccion2-inputs input{
     border: 0px;
     border-radius: 5px;
-    width: 100%;
+    width: 98%;
     padding-left:2%;
     margin-bottom: 3%;
 
     
 
+}
+.Seccion2-inputs a{
+    padding: 2% 40%;
+    background-color: orange;
+    color:white;
+    text-decoration: none;
+    text-align: center;
 }
 .Seccion2-texto{
     border-radius: 10px;
@@ -149,4 +156,9 @@ body header p{
     color:white;
     padding-left: 2%;
     padding-top: 2%;
+}
+footer{
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat("")
 }
