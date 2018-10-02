@@ -148,9 +148,10 @@ body header p{
     text-align: center;
 }
 .Seccion2-inputs a:hover{
-    background-color:white;
-    color:orange;
+    background-color:gray;
+    color:white;
     transition: all 0.2s;
+    opacity: 0.3;
 }
 .Seccion2-texto{
     border-radius: 10px;
@@ -198,3 +199,30 @@ footer p{
     text-align: center;
     color:gray;
 }
+@media screen and (max-width:1024px){
+    body header nav ul{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+        padding-bottom: 2%;  
+    }
+    
+    .Seccion1 {
+        display: grid;
+        grid-template-columns: repeat(1,100%);
+        
+    }
+    .Seccion2 form{
+        display: grid;
+        grid-template-columns: repeat(1,100%);
+        grid-column-start: 2;
+    }
+    .Seccion2 form a{
+        margin-bottom: 2%;
+
+
+        }
+    }
+
