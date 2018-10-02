@@ -62,3 +62,43 @@ body header p{
     color:white;
     font-size: 2rem;
 }
+.Seccion1{
+    background-color:white;
+    display: grid;
+    grid-template-columns: repeat(3,32.7%);
+    grid-gap: 0.8rem;
+    padding: 1%;
+    align-self: center;
+}
+.Seccion1 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    padding-bottom: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    
+}
+.Seccion1 div h3{
+    color: darkred;
+}
+.Seccion1 div a{
+    text-decoration: none;
+    color:white;
+    padding: 2% 10%;
+    background-color: orange;
+   
+   
+}
+.Seccion1-img1{
+    content: "";
+    background-image: url("../IMG/feauture1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 2rem;
+
+}
