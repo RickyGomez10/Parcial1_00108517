@@ -66,7 +66,8 @@ body header p{
     background-color:white;
     display: grid;
     grid-template-columns: repeat(3,32.7%);
-    grid-gap: 0.8rem;
+  
+    grid-gap: 0.3rem;
     padding: 1%;
     align-self: center;
 }
@@ -75,7 +76,7 @@ body header p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 25px;
+    border-radius: 10px;
     padding-bottom: 5%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
@@ -87,10 +88,15 @@ body header p{
 .Seccion1 div a{
     text-decoration: none;
     color:white;
-    padding: 2% 10%;
+    padding: 2% 35%;
     background-color: orange;
    
    
+}
+.Seccion1 div a:hover{
+    transition: all 0.2s;
+    background-color: white;
+    color:orange;
 }
 .Seccion1-img1{
     content: "";
@@ -101,4 +107,46 @@ body header p{
     width: 100%;
     height: 2rem;
 
+}
+.Seccion2{
+    background-image: url("../IMG/contacus.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 2%;
+}
+.Seccion2 form{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-column-gap: 2%;
+    padding:5%;
+}
+.Seccion2-inputs{
+    display: flex;
+    flex-direction: column;
+    
+  
+    
+}
+.Seccion2-inputs label{
+    color:white;
+}
+.Seccion2-inputs input{
+    border: 0px;
+    border-radius: 5px;
+    width: 100%;
+    padding-left:2%;
+    margin-bottom: 3%;
+
+    
+
+}
+.Seccion2-texto{
+    border-radius: 10px;
+    Display:flex;
+    flex-direction: column;
+    background-color: black;
+    opacity: 0.7;
+    color:white;
+    padding-left: 2%;
+    padding-top: 2%;
 }
