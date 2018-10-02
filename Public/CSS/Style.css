@@ -162,8 +162,39 @@ body header p{
     padding-left: 2%;
     padding-top: 2%;
 }
-footer{
+.Contenedorfooter{
     background-color: black;
     display: grid;
-    grid-template-columns: repeat("")
+    grid-template-columns: repeat(2,50%);
+}
+.Footerparte1{
+    color:white;
+    
+
+}
+.Footerparte1 nav ul{
+    list-style: none;
+}
+.Footerparte1 nav ul li a{
+    color:white;
+    text-decoration: none;
+    
+
+}
+.Footerparte2{
+    color:white;
+
+}
+.Footerparte2 nav ul{
+    list-style: none;
+
+}
+.Footerparte2 nav ul li a{
+    color:white;
+    text-decoration: none;
+
+}
+footer p{
+    text-align: center;
+    color:gray;
 }
