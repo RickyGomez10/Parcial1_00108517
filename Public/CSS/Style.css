@@ -147,6 +147,11 @@ body header p{
     text-decoration: none;
     text-align: center;
 }
+.Seccion2-inputs a:hover{
+    background-color:white;
+    color:orange;
+    transition: all 0.2s;
+}
 .Seccion2-texto{
     border-radius: 10px;
     Display:flex;
