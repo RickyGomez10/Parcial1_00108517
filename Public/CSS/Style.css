@@ -1,0 +1,64 @@
+*{
+  font-family: 'Raleway', sans-serif;
+
+}
+body{
+    background-color: black;
+    margin: 0;
+    padding: 2%;
+
+}
+body header{
+    background-image: url("../IMG/concierto.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 5%;
+    width: 100%;
+
+
+
+}
+body header nav{
+    background-color: black;
+}
+body header nav ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding-bottom: 2%;  
+}
+body header nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+body header nav ul li a:hover{
+    text-decoration-line: underline;
+}
+body header nav ul li a img{
+    height: 100px;
+}
+.Header-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.HeaderH{
+    font-size: 5vw;
+    color:white;
+    text-align: center;
+    font-family: 'Monoton', cursive;
+
+}
+body header p{
+    text-align: center;
+    color:white;
+}
+.fas.fa-angle-down{
+    margin-top: 3rem;
+    color:white;
+    font-size: 2rem;
+}
